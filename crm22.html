@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>DDSC | CRM</title>
+    <title>DDSC | WISE</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
@@ -103,7 +103,7 @@
                         </div>
                         <!-- Product name  (height: 46px)-->
                         <div class="navbar-brand" style="margin-bottom: -5px;">
-                            <img class="img-responsive" src="dist/img/header_title.png" alt="WMM" >
+                            <img class="img-responsive" src="dist/img/header_title.png" alt="WISE" >
                         </div>
                     </a>
                     <!-- Main navbar toggle -->
@@ -280,9 +280,9 @@
                         <a href="#"><i class="menu-icon fa fa-diamond"></i><span class="mm-text">客戶管理</span></a>
                         <ul>
                             <li><a tabindex="-1" href="crm21.html"><span class="mm-text">基本資料</span></a></li>
-                            <li><a tabindex="-1" href="#"><span class="mm-text">客戶資訊</span></a></li>
+                            <li class="active"><a tabindex="-1" href="crm22.html"><span class="mm-text">客戶資訊</span></a></li>
                             <li><a tabindex="-1" href="crm02.html"><span class="mm-text">財富資料</span></a></li>
-                            <li><a tabindex="-1" href="#"><span class="mm-text">資產結構</span></a></li>
+                            <!--<li><a tabindex="-1" href="#"><span class="mm-text">資產結構</span></a></li>-->
                             <li><a tabindex="-1" href="crm221.html"><span class="mm-text">交易紀錄查詢</span></a></li>
                             <li><a tabindex="-1" href="crm226.html"><span class="mm-text">已贖回損益查詢</span></a></li>
                             <li><a tabindex="-1" href="crm227.html"><span class="mm-text">訪談紀錄</span></a></li>
@@ -365,7 +365,7 @@
                     <div class="col-md-12 text-center">
                         <a href="crm21.html" class="btn btn-app btn-primary btn-lg" >
                             <i class="glyphicon glyphicon-list"></i><span>基本資料</span></a>
-                        <a href="#" class="btn btn-app btn-primary btn-lg">
+                        <a href="crm22.html" class="btn btn-app btn-primary btn-lg active"  style="color: #f7ba9b;">
                             <i class="fa  fa-dashboard"></i>客戶資訊</a>
                         <a href="crm02.html" target="_blank" class="btn btn-app btn-primary btn-lg">
                             <i class="glyphicon glyphicon-piggy-bank"></i>財富資料</a>
@@ -1102,5 +1102,6 @@
             $('#bs-datepicker-inline').datepicker();
         });
     </script>
-    <!-- / Bootstrap Datepicker --></body>
+    <!-- / Bootstrap Datepicker -->
+</body>
 </html>
